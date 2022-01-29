@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Sistema de Registro de Empleados Vacunados</title>
+    <!-- Favicon-->
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="{% static 'assets/favicon.ico' %}"
+    />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="{% static 'css/styles.css' %}" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#!">SIREV</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="/admin">
+                Inicio de sesión
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="http://www.cajamined.gob.sv"
+                target="_blank"
+                >Acerca de</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Header - set the background image for the header in the line below-->
+    <header
+      class="py-5 bg-image-full"
+      style="
+        background-image: url('https://images.unsplash.com/photo-1608243499644-c55bd9f2b837?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1472&q=80');
+        height: 250px;
+      "
+    >
+      <!-- <img class="img-fluid mx-auto" src="{% static 'assets/logo.png' %}" alt="..." style="width: 250px;" /> -->
+    </header>
+    <!-- Content section-->
+    <section class="py-5">
+      <div class="container">
+        <h1>Sistema de registro de empleados vacunados COVID-19</h1>
+        <p class="lead">Sobre el sistema informático</p>
+        <p class="text-justify">
+          El registro electrónico de vacunación es una herramienta que facilitan
+          el seguimiento de los esquemas de vacunación del personal de la
+          <strong
+            >Caja Mutual de los Empleados del Ministerio de Educación</strong
+          >
+          y el mantenimiento de su historial de vacunación y que, por lo tanto,
+          ayudan a focalizar la población dentro de la institución que ha sido
+          inmunizada contra el COVID-19, y de esta forma tener parámetros para
+          toma de decisiones estratégicas sobre el recurso humano.
+        </p>
+      </div>
+    </section>
+    <!-- Footer-->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">
+          Derechos reservados &copy; Unidad de Tecnologías de la Información 2022
+        </p>
+      </div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="{% static 'js/scripts.js' %}"></script>
+  </body>
+</html>
