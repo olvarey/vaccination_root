@@ -81,8 +81,8 @@ DATABASES = {
         "ENGINE": "django.db.backends.postgresql",
         "NAME": "rrhh_vacc_db",
         "USER": "postgres",
-        "PASSWORD": "SrvP0576r35",
-        "HOST": "192.168.10.82",
+        "PASSWORD": "",
+        "HOST": "",
         "PORT": "5432",
     }
 }
